@@ -1,5 +1,5 @@
 {
-    "name": "giftnuss/noray",
+    "name": "giftnuss/noray.php",
     "require": {
         "giftnuss/test.php": "@dev"
     },
