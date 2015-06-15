@@ -33,6 +33,14 @@ class AliasMap
         return $this->map[$name];
     }
 
+    public function has($name)
+    {
+        if(isset($this->aliase[$name])) {
+            $name = $this->aliase[$name];
+        }
+        return isset($this->map[$name]);
+    }
+
     protected function _initMap()
     {
         
